@@ -19,11 +19,11 @@ export default defineConfig({
     globals: true,
     environment: "node",
     setupFiles: ["reflect-metadata"],
-    exclude: ["**/node_modules/**", "**/test/**", "**/lib/**"],
+    exclude: ["**/node_modules/**", "**/lib/**"],
     coverage: {
       all: true,
       include: ["**/src/**"],
-      exclude: ["**/node_modules/**", "**/lib/**", "**/test/**", "**/index.ts/**"],
+      exclude: ["**/node_modules/**", "**/lib/**", "**/index.ts/**"],
       thresholds: {
         global: {
           statements: 85,
