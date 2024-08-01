@@ -1,7 +1,7 @@
 {
-  "name": "@expressots/your-provider",
+  "name": "your-provider-name",
   "version": "0.0.1",
-  "description": "Expressots - Your provider description (@expressots/your-provider)",
+  "description": "Expressots - Your provider description (your-provider-name)",
   "author": "Author Name",
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/types/index.d.ts",
@@ -47,7 +47,7 @@
     "server-side"
   ],
   "engines": {
-    "node": ">=18.10.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "prepare": "husky install",
@@ -73,23 +73,23 @@
   },
   "devDependencies": {
     "@codecov/vite-plugin": "0.0.1-beta.6",
-    "@commitlint/cli": "18.0.0",
-    "@commitlint/config-conventional": "17.7.0",
-    "@release-it/conventional-changelog": "7.0.1",
-    "@types/node": "20.4.9",
-    "@typescript-eslint/eslint-plugin": "6.6.0",
-    "@typescript-eslint/parser": "6.6.0",
-    "@vitest/coverage-v8": "1.4.0",
-    "eslint": "8.48.0",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@release-it/conventional-changelog": "8.0.1",
+    "@types/node": "22.0.2",
+    "@typescript-eslint/eslint-plugin": "8.0.0",
+    "@typescript-eslint/parser": "8.0.0",
+    "@vitest/coverage-v8": "2.0.5",
+    "eslint": "9.8.0",
     "eslint-config-prettier": "9.0.0",
-    "husky": "8.0.3",
+    "husky": "9.1.4",
     "prettier": "3.0.3",
-    "release-it": "16.1.5",
+    "release-it": "17.6.0",
     "ts-jest": "29.0.5",
     "typescript": "5.2.2",
     "vite": "5.2.8",
     "vite-tsconfig-paths": "4.3.2",
-    "vitest": "1.4.0"
+    "vitest": "2.0.5"
   },
   "release-it": {
     "git": {
