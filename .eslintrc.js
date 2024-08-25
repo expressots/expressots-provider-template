@@ -1,4 +1,4 @@
-/* eslint-env node */
+// .eslintrc.js
 module.exports = {
   extends: [
     "eslint:recommended",
@@ -21,7 +21,6 @@ module.exports = {
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
     "@typescript-eslint/await-thenable": "error",
-    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/class-literal-property-style": "error",
     "@typescript-eslint/explicit-function-return-type": "error",
   },
